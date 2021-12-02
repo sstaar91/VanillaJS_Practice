@@ -1,5 +1,3 @@
-//유저 로그인
-
 const loginForm = document.querySelector(".loginForm");
 const loginInput = document.querySelector(".loginName");
 const userText = document.querySelector(".welcomeText");
