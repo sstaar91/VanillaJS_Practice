@@ -12,7 +12,7 @@ const quotes = [
     author: "강호동",
   },
   {
-    text: "인생을 짧고, 열심히 해라",
+    text: "인생은 짧고, 열심히 해라",
     author: "박명수",
   },
   {

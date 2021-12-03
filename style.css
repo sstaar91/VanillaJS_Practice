@@ -1,3 +1,87 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+}
+
+#title {
+  margin: 0 0 30px 0;
+  font-size: 10vw;
+}
+
+.welcomeText {
+  font-size: 2.5vw;
+}
+
+.loginName {
+  width: 40vw;
+  text-align: center;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.loginName:focus {
+  outline: none;
+  place-content: none;
+}
+
+.loginName:focus::placeholder {
+  color: white;
+}
+
 .hidden {
   display: none;
+}
+
+.writeTodo {
+  width: 40vw;
+  text-align: center;
+  border: none;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.writeTodo:focus {
+  outline: none;
+  place-content: none;
+}
+
+.writeTodo:focus::placeholder {
+  color: white;
+}
+
+.todoList {
+  margin: 20px 0;
+  padding: 10px;
+  width: 50vw;
+  max-height: 20vh;
+  overflow-y: scroll;
+}
+
+.listDiv {
+  margin: 5px 0;
+  padding: 5px;
+  position: relative;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+}
+
+.listBtn {
+  position: absolute;
+  right: 30px;
+  border: none;
+  background-color: white;
+  color: red;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.quote {
+  position: absolute;
+  bottom: 10%;
 }

@@ -6,23 +6,26 @@
     <title>Momentum App</title>
   </head>
   <body>
-    <form class="loginForm hidden">
-      <input
-        required
-        type="text"
-        class="loginName"
-        placeholder="이름을 입력하세요"
-        maxlength="5"
-      />
-      <input type="submit" value="login" />
-    </form>
-    <h1 class="welcomeText hidden" />
-    <h2 class="clock"></h2>
-    <div class="quote"></div>
+    <div>
+      <h2 class="clock"></h2>
+      <h1 id="title">Todo</h1>
+      <form class="loginForm hidden">
+        <input
+          required
+          type="text"
+          class="loginName"
+          placeholder="이름을 입력하세요"
+          maxlength="5"
+        />
+        <input type="submit" value="login" hidden />
+      </form>
+      <h1 class="welcomeText hidden" />
+    </div>
     <form class="writeForm">
-      <input class="writeTodo" required />
+      <input class="writeTodo" placeholder="내용을 입력하세요" required />
     </form>
     <div class="todoList"></div>
+    <div class="quote"></div>
     <script src="JS/Login.js"></script>
     <script src="JS/Clock.js"></script>
     <script src="JS/Quotes.js"></script>

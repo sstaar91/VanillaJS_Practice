@@ -20,9 +20,13 @@ const paintList = (listValue) => {
   const listSpan = document.createElement("span");
   const listBtn = document.createElement("button");
 
+  listDiv.classList.add("listDiv");
+  listSpan.classList.add("listSpan");
+  listBtn.classList.add("listBtn");
+
   listDiv.id = listValue.id;
   listSpan.innerText = listValue.text;
-  listBtn.innerText = "X";
+  listBtn.innerText = "삭제";
   listBtn.addEventListener("click", deleteList);
 
   todoList.appendChild(listDiv);
