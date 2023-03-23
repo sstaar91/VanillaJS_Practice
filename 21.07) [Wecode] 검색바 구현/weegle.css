@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+img {
+  width: 700px;
+}
+
+.inputWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.fa-solid {
+  flex: 1;
+}
+
+input {
+  flex: 7;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.fa-microphone {
+  color: #0a8dff;
+}
+
+.buttonWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.buttonItem {
+  padding: 20px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.colorPick {
+  color: green;
+}
+
+.westa {
+  color: #0a8dff;
+}
+
+.serviceWrap {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.changeLanguage {
+  text-decoration-line: none;
+}
+
+.changeLanguage:link {
+  color: black;
+}
+
+.changeLanguage:visited {
+  color: red;
+}
