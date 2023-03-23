@@ -6,13 +6,13 @@ Vanilla Javascript로 작업한 결과물들을 저장해 놓은 repo입니다.<
 주로 학습에 통해 나온 결과물로 이루어져있습니다.</br>
 차후 여러가지 프로젝트도 적용해 볼 예정입니다.
 
----
-
 ### 사용 스택
 
 ![HTML5](https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+---
 
 ### 구현 리스트
 
