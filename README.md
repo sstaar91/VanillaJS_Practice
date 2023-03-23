@@ -16,6 +16,31 @@ Vanilla Javascript로 작업한 결과물들을 저장해 놓은 repo입니다.<
 ## 구현 리스트
 
 <details>
+<summary>21.07 || [Wecode] Color Card 구현</summary>
+
+![스크린샷 2023-03-23 오후 3 05 36](https://user-images.githubusercontent.com/78401083/227117899-b5640199-1167-49e0-ba20-74f47f06a4d8.png)
+
+
+### Version
+<details>
+<summary>1.0.0</summary>
+
+### ☝🏻 기본 기능
+
+| ![스크린샷 2023-03-23 오후 3 05 36](https://user-images.githubusercontent.com/78401083/227118024-ae978b34-600a-4fd7-9ad5-edbbb4944f11.png) | [레이아웃]<br/> - 컬러 카드 구현 |
+| :--: | :--: |
+
+
+</details>
+
+## 참고 사항
+- 소스 코드 및 화면 확인 방법 : `git clone` 이후, `[Wecode] 컬러카드 구현` 폴더에서 index.html을 확인해주세요.
+
+<br/>
+
+</details>
+
+<details>
 <summary>21.07 || [Wecode] weegle 검색바 구현</summary>
 
 ![스크린샷 2023-03-23 오후 2 46 48](https://user-images.githubusercontent.com/78401083/227114861-54d6576f-7e4e-4a4d-bb90-52c23b085853.png)
