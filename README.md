@@ -19,6 +19,16 @@ Vanilla Javascript로 작업한 결과물들을 저장해 놓은 repo입니다.<
 <details>
 <summary>[NOMAD Coders] 크롬 앱 제작 (Momentum App) - 21.04</summary>
 
+### 소스코드 및 결과물 확인 방법
+- `git clone` 이후, [NOMAD Coders] 크롬 앱 제작 (Momentum App) 폴더에서 index.html을 확인해주세요
+
+### 학습 참고 자료
+
+- [노마드코더 바닐라 JS 크롬 앱 제작](https://nomadcoders.co/javascript-for-beginners/lobby)
+
+<details>
+<summary>Ver 1.0.0</summary>
+
 ### - 기본 기능
 
 |   ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/78401083/227094549-3bafed71-1a7d-4cda-8363-f882a50f07fc.gif)   | [로그인]<br/> - 초기 화면에서 유저 이름 등록<br/>- 등록한 유저는 새로고침해도 유지<br/><br/>[현재 시간 표시]<br/>-명언과 작가를 랜덤하게 화면에 표시 |
@@ -31,11 +41,8 @@ Vanilla Javascript로 작업한 결과물들을 저장해 놓은 repo입니다.<
 - 글귀 위치 : 최하단에 위치 고정
 - todo 리스트 : 이름 입력하면 리스트 입력칸이 나오도록 구성 / 리스트가 일정 길이를 넘어서면 안보이도록 구현
 
-### - 소스코드 및 결과물 확인 방법
-- `git clone` 이후, [NOMAD Coders] 크롬 앱 제작 (Momentum App) 폴더에서 index.html을 확인해주세요
+</details>
 
-### 학습 참고 자료
 
-- [노마드코더 바닐라 JS 크롬 앱 제작](https://nomadcoders.co/javascript-for-beginners/lobby)
 
 </details>
