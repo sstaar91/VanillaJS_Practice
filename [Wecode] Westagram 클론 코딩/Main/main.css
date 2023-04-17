@@ -1,0 +1,250 @@
+body {
+  min-width: 1000px;
+  background-color: #f2f2f2;
+}
+
+/* Nav */
+.nav {
+  border-bottom: 1px solid #d3d3d3;
+  background-color: white;
+}
+
+.navInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+.titleWrapper .title {
+  display: inline-block;
+  font-family: "Pacifico", cursive;
+}
+
+.searchWrapper {
+  position: relative;
+  width: 400px;
+}
+
+.fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 20px;
+  color: #d3d3d3;
+}
+
+.searchBar {
+  padding: 7px 10px;
+  width: 100%;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  background-color: #fafafa;
+  font-size: 15px;
+  color: #d3d3d3;
+}
+
+.searchBar:focus {
+  position: relative;
+  background-color: white;
+  color: black;
+  z-index: 1;
+}
+
+.statusWrap .far {
+  cursor: pointer;
+}
+
+/* Main */
+.mainContainer {
+  display: grid;
+  grid-template-columns: 70% 25%;
+  grid-column-gap: 5%;
+  width: 70%;
+  max-width: 1000px;
+  margin: 30px auto 0 auto;
+  padding-bottom: 100px;
+}
+
+.mainContainer article {
+  background-color: white;
+}
+
+.feed {
+  border: 1px solid #c1c1c1;
+}
+
+.feedHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.feedHeader div {
+  display: flex;
+  align-items: center;
+}
+
+.userImg {
+  margin-right: 10px;
+  background-image: url("../images/myPage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.feedHeader div p {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 11px;
+}
+
+.feedImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.feedImg img {
+  width: 100%;
+}
+
+.commentWrapper {
+  padding: 15px 20px;
+}
+
+.commentIconWrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.commentIconWrapper .fa-heart {
+  color: red;
+}
+
+.commentLike {
+  display: flex;
+  margin: 15px 0;
+}
+
+.commentLike p {
+  margin-left: 10px;
+  line-height: 18px;
+}
+
+#commentLists {
+  font-size: 14px;
+}
+
+#commentLists li {
+  margin-bottom: 8px;
+}
+
+.commentWrapper .name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.commentWrapper .delete {
+  float: right;
+  cursor: pointer;
+}
+
+.comment {
+  padding: 15px 20px;
+  border-top: 1px solid #c1c1c1;
+}
+
+.comment input {
+  width: 400px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+#submit {
+  float: right;
+  border: none;
+  background-color: white;
+  font-size: 18px;
+  color: skyblue;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Aside bar */
+.mainContainer aside {
+  height: 300px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* Account */
+.sectionWrapper {
+  display: flex;
+}
+
+.sectionWrapper i {
+  margin-right: 10px;
+  font-size: 40px;
+}
+
+.sectionInner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sectionInner p:last-child {
+  color: #c1c1c1;
+}
+
+/* Content */
+.contentWrapper {
+  margin: 20px 0;
+  padding: 15px 20px 0 20px;
+  height: 250px;
+  border: 1px solid #c1c1c1;
+  background-color: white;
+  overflow: auto;
+}
+
+.contentWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.contentHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contentHeader p:first-child {
+  color: #c1c1c1;
+  cursor: default;
+}
+
+.contentHeader p:last-child {
+  cursor: pointer;
+}
+
+.contentWrapper .sectionWrapper {
+  margin-bottom: 20px;
+}
+
+aside {
+  min-width: 250px;
+}
