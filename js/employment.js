@@ -1,7 +1,7 @@
 const employmentBox = document.querySelector(".employmentBox");
 
 const getEmploymentList = async () => {
-  const res = await fetch("/data/employmentList.json");
+  const res = await fetch("../data/employmentList.json");
   const data = await res.json();
   showEmploymentList(data);
 };

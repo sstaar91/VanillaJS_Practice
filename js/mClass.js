@@ -1,7 +1,7 @@
 const mClassBox = document.querySelector(".mClassBox");
 
 const getMClassList = async () => {
-  const res = await fetch("/data/mClassList.json");
+  const res = await fetch("../data/mClassList.json");
   const data = await res.json();
   showMClassList(data);
 };

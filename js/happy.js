@@ -1,7 +1,7 @@
 const happyBox = document.querySelector(".happyBox");
 
 const getHappyList = async () => {
-  const res = await fetch("/data/happyList.json");
+  const res = await fetch("../data/happyList.json");
   const data = await res.json();
   showHappyList(data);
 };

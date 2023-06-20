@@ -1,7 +1,7 @@
 const listBox = document.querySelector(".listBox");
 
 const getInternList = async () => {
-  const res = await fetch("/data/internList.json");
+  const res = await fetch("../data/internList.json");
   const data = await res.json();
   showInternList(data);
 };
