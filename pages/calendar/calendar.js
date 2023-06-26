@@ -71,8 +71,6 @@ const saveMemo = (y, m, d, memo, modal) => {
     calendarMemoArr.push(memoObj);
   }
 
-  console.log(calendarMemoArr);
-
   memoObj = {};
   memo.value = "";
   modal.remove();

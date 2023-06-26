@@ -1,0 +1,39 @@
+.carouselBox {
+  position: relative;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(1, 1, 1, 0.5);
+  overflow: hidden;
+}
+
+.carouselBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left {
+  left: 2%;
+}
+
+.right {
+  right: 2%;
+}
+
+.carouselImgList {
+  display: flex;
+  height: 300px;
+  transition: all 0.3s ease-in-out;
+}
+
+.carouselImg {
+  width: 500px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
