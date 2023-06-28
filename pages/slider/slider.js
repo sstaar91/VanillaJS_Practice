@@ -110,12 +110,12 @@ const autoLeftSlide = (idx) => {
   if (idx === 0) {
     carouselImgList.style.transition = "none";
     carouselImgList.style.transform = `translateX(-${
-      defaultWidth * (imgList.length - 1)
+      defaultWidth * (textList.length - 1)
     }px)`;
 
     setTimeout(() => {
       carouselImgList.style.transform = `translateX(-${
-        defaultWidth * (imgList.length - 2)
+        defaultWidth * (textList.length - 2)
       }px)`;
       carouselImgList.style.transition = `all 0.3s ease-in-out`;
     }, 10);
