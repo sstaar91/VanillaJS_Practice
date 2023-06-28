@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../../styles/reset.css" />
     <link rel="stylesheet" href="../../styles/common.css" />
     <link rel="stylesheet" href="./intern.css" />
+    <link rel="stylesheet" href="../slider/slider.css" />
   </head>
   <body>
     <nav class="nav">
@@ -53,11 +54,25 @@
     </section>
     <div class="imageCardContainer">
       <div class="imageCardWrap">
-        <img
-          class="imageCard"
-          src="https://miniintern-upload.s3.ap-northeast-2.amazonaws.com/35108/4e4efa39-896d-4fa6-9dee-d5f243fe7b96/붙임4-대표이미지.png"
-          alt="imageCard"
-        />
+        <div class="carouselBox">
+          <button class="carouselBtn left">◀︎</button>
+          <div
+            class="carouselImgList"
+            style="
+              transform: translateX(-500px);
+              transition: all 0.3s ease-in-out;
+            "
+          >
+            <!-- <div class="carouselImg">
+              <span class="carouselLabel">IT</span>
+              <p class="carouselDescription">
+                밑바닥에서 시작해서<br />가장 높은 곳까지 <br />올라가 보고
+                싶다면?
+              </p>
+            </div> -->
+          </div>
+          <button class="carouselBtn right">▶︎</button>
+        </div>
         <div class="imageDescription">
           <label class="imageCardLabel">서비스 런칭</label>
           <div class="imageText">
@@ -148,5 +163,6 @@
     <script src="./js/employment.js"></script>
     <script src="./js/mClass.js"></script>
     <script src="./js/happy.js"></script>
+    <script src="../slider/slider.js"></script>
   </body>
 </html>

@@ -1,22 +1,58 @@
 const carouselImgList = document.querySelector(".carouselImgList");
 
-const imgList = [
-  "./images/4.jpg",
-  "./images/1.png",
-  "./images/2.jpg",
-  "./images/3.png",
-  "./images/4.jpg",
-  "./images/1.png",
+let textList = [
+  {
+    id: 1,
+    color: "black",
+    label: "IT",
+    text: `밑바닥에서 시작해서<br />가장 높은 곳까지 <br />올라가 보고
+  싶다면?`,
+  },
+  {
+    id: 2,
+    color: "green",
+    label: "취업",
+    text: `대기업을 목표로 하고 있다면<br />지금 당장 알아봐야 할 <br /> 10가지!`,
+  },
+  {
+    id: 3,
+    color: "pink",
+    label: "자기계발",
+    text: `지금 나에게<br />가장 필요한<br />능력치가 뭘까?`,
+  },
+  {
+    id: 4,
+    color: "blue",
+    label: "마케팅",
+    text: `고객들이<br />원하는 것을<br />스스로 말하게 하는 방법?`,
+  },
 ];
 
+const setImgList = () => {
+  textList.push(textList[0]);
+  textList.unshift(textList.at(-2));
+};
+
+setImgList();
+
 const makeImg = () => {
-  carouselImgList.style.width = `${imgList.length * 100}%`;
-  imgList.forEach((url) => {
+  carouselImgList.style.width = `${textList.length * 100}%`;
+  textList.forEach((el) => {
     const carouselImg = document.createElement("div");
+    const carouselLabel = document.createElement("span");
+    const carouselDescription = document.createElement("p");
+
     carouselImg.classList.add("carouselImg");
-    carouselImg.style.backgroundImage = `url(${url})`;
+    carouselLabel.classList.add("carouselLabel");
+    carouselDescription.classList.add("carouselDescription");
+
+    carouselImg.style.backgroundColor = el.color;
+    carouselLabel.innerText = el.label;
+    carouselDescription.innerHTML = el.text;
 
     carouselImgList.appendChild(carouselImg);
+    carouselImg.appendChild(carouselLabel);
+    carouselImg.appendChild(carouselDescription);
   });
 };
 
@@ -57,7 +93,7 @@ const autoSlide = () => {
 };
 
 const autoRightSlide = (idx) => {
-  if (idx === imgList.length) {
+  if (idx === textList.length) {
     carouselImgList.style.transition = "none";
     carouselImgList.style.transform = `translateX(0px)`;
 
