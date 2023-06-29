@@ -12,9 +12,9 @@
 |3일차|타이머 만들기|✅|[3일차](https://bluemind917.tistory.com/261)|
 |4일차|To-Do List 만들기|✅|[4일차](https://bluemind917.tistory.com/262)|
 |5일차|캘린더 만들기|✅|[5일차](https://bluemind917.tistory.com/263)|
-|6일차|이미지 캐러셀 만들기 (1)|✅|[6일차](https://bluemind917.tistory.com/264)|
-|7일차|이미지 캐러셀 만들기 (2)|✅|[7일차](https://bluemind917.tistory.com/265)|
-|8일차|이미지 캐러셀 만들기 (3)|✅|[8일차](https://bluemind917.tistory.com/266)|
+|6일차|이미지 캐러셀 만들기 (1)|✅|[6일차](https://bluemind917.tistory.com/264)|
+|7일차|이미지 캐러셀 만들기 (2)|✅|[7일차](https://bluemind917.tistory.com/265)|
+|8일차|이미지 캐러셀 만들기 (3)|✅|[8일차](https://bluemind917.tistory.com/266)|
 
 
 
