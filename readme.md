@@ -18,6 +18,5 @@
 |9일차|반응형 네비게이션 바 만들기|✅|[9일차](https://bluemind917.tistory.com/267)|
 |10일차|로그인 페이지 만들기|✅|[10일차](https://bluemind917.tistory.com/268)|
 
-
-
-
+## 배포 페이지
+- https://sstaar91.github.io/RESAT_Farming_Challenge/
