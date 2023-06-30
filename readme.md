@@ -16,7 +16,7 @@
 |7일차|이미지 캐러셀 만들기 (2)|✅|[7일차](https://bluemind917.tistory.com/265)|
 |8일차|이미지 캐러셀 만들기 (3)|✅|[8일차](https://bluemind917.tistory.com/266)|
 |9일차|반응형 네비게이션 바 만들기|✅|[9일차](https://bluemind917.tistory.com/267)|
-|10일차|로그인 페이지 만들기|✅|[9일차](https://bluemind917.tistory.com/268)|
+|10일차|로그인 페이지 만들기|✅|[10일차](https://bluemind917.tistory.com/268)|
 
 
 
