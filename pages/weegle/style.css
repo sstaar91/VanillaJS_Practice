@@ -1,21 +1,21 @@
-body {
+.weegleContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
 }
 
-img {
+.weegleLogo {
   width: 700px;
 }
 
-.inputWrap {
+.weegleInputBox {
   display: flex;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  width: 100%;
-  height: 40px;
+  padding: 10px;
+  width: 50vw;
   border: 1px solid black;
   border-radius: 20px;
 }
@@ -24,8 +24,8 @@ img {
   flex: 1;
 }
 
-input {
-  flex: 7;
+.weegleInput {
+  flex: 8;
   height: 30px;
   border: none;
   outline: none;
@@ -35,14 +35,14 @@ input {
   color: #0a8dff;
 }
 
-.buttonWrap {
+.weegleButtonWrap {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-.buttonItem {
+.weegleButtonWrap > button {
   padding: 20px;
   margin: 5px;
   border: 1px solid black;
@@ -51,27 +51,27 @@ input {
   cursor: pointer;
 }
 
-.colorPick {
+.weegleColorCard {
   color: green;
 }
 
-.westa {
+.weegleResetBtn {
   color: #0a8dff;
 }
 
-.serviceWrap {
+.weegleServiceWrap {
   text-align: center;
   margin-top: 20px;
 }
 
-.changeLanguage {
+.weegleChangeLanguage {
   text-decoration-line: none;
 }
 
-.changeLanguage:link {
+.weegleChangeLanguage:link {
   color: black;
 }
 
-.changeLanguage:visited {
+.weegleChangeLanguage:visited {
   color: red;
 }

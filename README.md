@@ -22,6 +22,7 @@ Vanilla Javascript로 작업한 결과물들을 저장해 놓은 repo입니다.<
 
 ## 구현 리스트
 
-| No. | day     | title      | Log                                             |
-| --- | ------- | ---------- | ----------------------------------------------- |
-| 1   | 2022.07 | Color Card | [prologue](https://bluemind917.tistory.com/258) |
+| No. | day     | title      | Log                                           |
+| --- | ------- | ---------- | --------------------------------------------- |
+| 1   | 2022.07 | Color Card | [ver. 1](https://bluemind917.tistory.com/275) |
+| 2   | 2022.07 | weegle     | [ver. 1](https://bluemind917.tistory.com/276) |

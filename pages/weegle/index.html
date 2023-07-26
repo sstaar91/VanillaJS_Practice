@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../icons/favicon-32x32.png"
+    />
     <title>Weegle</title>
     <script
       src="https://kit.fontawesome.com/af6e50f004.js"
@@ -13,26 +18,27 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <section>
+    <main class="weegleContainer">
       <img
+        class="weegleLogo"
         src="https://user-images.githubusercontent.com/61774575/95163201-34411c00-075c-11eb-9987-d6301acb4dab.png"
         alt="logo"
       />
-      <div class="inputWrap">
+      <div class="weegleInputBox">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <input type="text" />
+        <input type="text" class="weegleInput" />
         <i class="fa-solid fa-keyboard"></i>
         <i class="fa-solid fa-microphone"></i>
       </div>
-      <div class="buttonWrap">
-        <button class="buttonItem colorPick">Color Change</button>
-        <button class="buttonItem westa">검색어 리셋</button>
+      <div class="weegleButtonWrap">
+        <button class="weegleColorCard">Color Card 보기</button>
+        <button class="weegleResetBtn">검색어 리셋</button>
       </div>
-      <div class="serviceWrap">
+      <div class="weegleServiceWrap">
         <span>Weegle 제공 서비스 :</span>
-        <a class="changeLanguage" href="#">English</a>
+        <a class="weegleChangeLanguage" href="#">English</a>
       </div>
-    </section>
+    </main>
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
