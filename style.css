@@ -72,13 +72,11 @@
 .homeListImg {
   width: 200px;
   height: 150px;
-  border: 1px solid #808080;
   border-radius: 8px;
   transition: 0.3s all ease-in-out;
 }
 
 .homeListImg:hover {
-  border: none;
   box-shadow: 4px 4px 8px 1px rgba(1, 1, 1, 0.25);
   cursor: pointer;
   transition: 0.3s all ease-in-out;
