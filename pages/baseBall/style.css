@@ -1,0 +1,79 @@
+.baseBallContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 30px;
+}
+
+.baseBallTitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.baseBallNotice {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.baseBallAnswerBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.baseBallInputWrap {
+  display: flex;
+  gap: 20px;
+}
+
+.baseBallNumberInput {
+  width: 50px;
+  height: 100px;
+  border: 1px solid brown;
+  border-radius: 8px;
+  font-size: 30px;
+  text-align: center;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.baseBallSubmitBtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+.baseBallAnswerListBox {
+  padding: 20px;
+  width: 300px;
+  height: 400px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  overflow: scroll;
+}
+
+.baseBallAnswerCard {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.baseBallAnswerNumber {
+  font-size: 24px;
+  font-family: 700;
+}
+
+.baseBallResult {
+  font-size: 18px;
+}

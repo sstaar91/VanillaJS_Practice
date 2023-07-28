@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../../icons/favicon-32x32.png"
+    />
+    <title>BaseBall_Game</title>
+    <script
+      src="https://kit.fontawesome.com/af6e50f004.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="../../style/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../../style/common.css" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <main class="baseBallContainer">
+      <h1 class="baseBallTitle">⚾️ 야구게임 ⚾️</h1>
+      <h2 class="baseBallNotice">세자리 숫자를 입력하세요! (단, 중복 없이)</h2>
+      <form class="baseBallAnswerBox">
+        <div class="baseBallInputWrap">
+          <input class="baseBallNumberInput first" type="number" />
+          <input class="baseBallNumberInput second" type="number" />
+          <input class="baseBallNumberInput third" type="number" />
+        </div>
+        <button class="baseBallSubmitBtn">확인하기</button>
+      </form>
+      <div class="baseBallAnswerListBox"></div>
+    </main>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
