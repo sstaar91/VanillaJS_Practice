@@ -1,4 +1,3 @@
-// 새로운 정답 번호 추출
 const secretNumber = createSecretNumber();
 let count = 0;
 const answerList = [];
@@ -13,7 +12,6 @@ function createSecretNumber() {
   return Array.from(uniqueDigits).join("");
 }
 
-// 숫자 입력시 발생하는 함수
 const answerNumbers = document.getElementsByClassName("baseBallNumberInput");
 const baseBallSubmitBtn = document.querySelector(".baseBallSubmitBtn");
 
@@ -35,7 +33,6 @@ baseBallSubmitBtn.addEventListener("click", (e) => {
   getAnswer();
 });
 
-// 숫자 확인하는 함수
 function getAnswer() {
   let guessNumber = "";
 
