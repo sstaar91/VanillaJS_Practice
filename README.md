@@ -26,3 +26,5 @@ Vanilla Javascript로 작업한 결과물들을 저장해 놓은 repo입니다.<
 | --- | ------- | ---------- | --------------------------------------------- |
 | 1   | 2022.07 | Color Card | [ver. 1](https://bluemind917.tistory.com/275) |
 | 2   | 2022.07 | weegle     | [ver. 1](https://bluemind917.tistory.com/276) |
+| 3   | 2023.07 | 야구 게임 만들기     | [ver. 2](https://bluemind917.tistory.com/278) |
+
