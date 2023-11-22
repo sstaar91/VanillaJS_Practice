@@ -1,7 +1,7 @@
 const PROJECT_LIST = [
   {
     id: 4,
-    img: "./images/baseBall.png",
+    img: "./images/baseBall.jpg",
     alt: "baseBall",
     path: "/pages/baseBall/index.html",
     desc: [
@@ -11,7 +11,7 @@ const PROJECT_LIST = [
   },
   {
     id: 3,
-    img: "./images/westagram.png",
+    img: "./images/westagram.jpg",
     alt: "westagram",
     path: "/pages/westagram/Login/index.html",
     desc: [
@@ -21,7 +21,7 @@ const PROJECT_LIST = [
   },
   {
     id: 2,
-    img: "./images/weegle.png",
+    img: "./images/weegle.jpg",
     alt: "weegle",
     path: "/pages/weegle/index.html",
     desc: [
@@ -31,7 +31,7 @@ const PROJECT_LIST = [
   },
   {
     id: 1,
-    img: "./images/colorCard.png",
+    img: "./images/colorCard.jpg",
     alt: "colorCard",
     path: "/pages/colorCard/index.html",
     desc: [
