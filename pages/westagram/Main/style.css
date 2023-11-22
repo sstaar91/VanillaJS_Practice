@@ -95,10 +95,9 @@
 
 .userImg {
   margin-right: 10px;
-  background-image: url("../images/myPage.jpg");
+  background-image: url("../images/me.png");
   background-size: cover;
   background-position: center;
-  background-repeat: none;
   width: 30px;
   height: 30px;
   border-radius: 100%;
@@ -115,6 +114,7 @@
   justify-content: center;
   align-items: center;
   height: 600px;
+  overflow: hidden;
 }
 
 .feedImg img {
@@ -164,19 +164,21 @@
 }
 
 .comment {
+  display: flex;
+  gap: 10px;
   padding: 15px 20px;
   border-top: 1px solid #c1c1c1;
 }
 
 .comment input {
-  width: 400px;
+  width: 100%;
   border: none;
   font-size: 16px;
   outline: none;
 }
 
 #submit {
-  float: right;
+  width: 50px;
   border: none;
   background-color: white;
   font-size: 18px;

@@ -11,12 +11,12 @@ const PROJECT_LIST = [
   },
   {
     id: 3,
-    img: "./images/baseBall.png",
+    img: "./images/westagram.png",
     alt: "westagram",
     path: "/pages/westagram/Login/index.html",
     desc: [
       { info: "T", title: "westagram" },
-      { info: "D", title: "2023-07" },
+      { info: "D", title: "2022-07" },
     ],
   },
   {
@@ -51,15 +51,18 @@ const makeList = () => {
 
 function makeCardElement(item) {
   const card = document.createElement("div");
+  const cardImgWrap = document.createElement("div");
   const cardImg = document.createElement("img");
 
   card.classList.add("cardWrap");
+  cardImgWrap.classList.add("cardImgWrap");
   cardImg.classList.add("cardImg");
 
   cardImg.setAttribute("src", item.img);
   cardImg.setAttribute("alt", item.alt);
 
-  card.appendChild(cardImg);
+  cardImgWrap.appendChild(cardImg);
+  card.appendChild(cardImgWrap);
 
   item.desc.forEach((text) => {
     const box = document.createElement("div");

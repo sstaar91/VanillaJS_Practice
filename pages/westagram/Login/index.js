@@ -1,5 +1,3 @@
-"use strict";
-
 const loginForm = document.querySelector(".westaLoginForm");
 const loginBtn = document.querySelector(".westaLoginBtn");
 const inputs = document.getElementsByClassName("westaLoginForm")[0];
