@@ -102,6 +102,7 @@ section {
 }
 body {
   line-height: 1;
+  background-color: var(--primary);
 }
 ol,
 ul {
@@ -121,4 +122,10 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+a,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
 }

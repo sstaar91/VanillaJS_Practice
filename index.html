@@ -9,24 +9,41 @@
       sizes="32x32"
       href="./icons/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dongle&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="./style/reset.css" />
     <link rel="stylesheet" type="text/css" href="./style/common.css" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
+    <nav class="navBox">
+      <a class="logoBox" href="/">
+        <img class="homeHtmlIcon" src="./icons/main_icon.png" alt="icon" />
+        VanillaJS Project
+      </a>
+    </nav>
     <main class="home">
-      <div class="homeIconBox">
-        <img class="homeHtmlIcon" src="./icons/html.svg" alt="html icon" />
-        <img class="homeCssIcon" src="./icons/css.svg" alt="css icon" />
-        <img
-          class="homeJsIcon"
-          src="./icons/javascript.svg"
-          alt="javascript icon"
-        />
-      </div>
-      <h1 class="homeTitle">VanillaJS Project</h1>
-      <article class="homeListContainer"></article>
+      <section class="introduceBox">
+        <img src="icons/me.png" alt="me" />
+        <div class="introduce">
+          <label class="category">STACK</label>
+          <div>
+            <span class="type html">HTML</span>
+            <span class="type css">CSS</span>
+            <span class="type js">Javascript</span>
+          </div>
+          <label class="category">CODE</label>
+          <a href="https://github.com/sstaar91/VanillaJS_Practice"
+            >👉 Github 이동</a
+          >
+        </div>
+      </section>
+      <section class="homeListContainer"></section>
     </main>
-    <script type="text/javascript" src="app.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>

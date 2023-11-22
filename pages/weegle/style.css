@@ -1,9 +1,12 @@
+@import "../../style/nav.css";
+
 .weegleContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  background-color: white;
 }
 
 .weegleLogo {
