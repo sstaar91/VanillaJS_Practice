@@ -1,3 +1,5 @@
+import { addDefaultPath } from "./utils/addDefaultPath.js";
+
 const PROJECT_LIST = [
   {
     id: 4,
@@ -40,6 +42,12 @@ const PROJECT_LIST = [
     ],
   },
 ];
+
+const logoBox = document.getElementsByClassName("logoBox")[0];
+logoBox.addEventListener("click", (e) => {
+  e.preventDefault();
+  addDefaultPath(e.target.pathname);
+});
 
 const homeListContainer = document.querySelector(".homeListContainer");
 
@@ -88,8 +96,8 @@ function makeCardElement(item) {
   });
 }
 
-function goToPage(path) {
-  location.href = path;
+function goToPage(url) {
+  addDefaultPath(url);
 }
 
 makeList();
