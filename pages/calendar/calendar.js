@@ -25,9 +25,7 @@ const handleMemoModal = (y, m, d) => {
   calendarMemoBtn.classList.add("calendarMemoBtn");
   calendarMemoBtn.innerText = "등록";
 
-  const checkMemo = calendarMemoArr.filter(
-    (el) => el.date === `${y}-${m}-${d}`
-  );
+  const checkMemo = calendarMemoArr.filter((el) => el.date === `${y}-${m}-${d}`);
 
   if (checkMemo.length !== 0) {
     checkMemo.forEach((el) => {
@@ -45,15 +43,11 @@ const handleMemoModal = (y, m, d) => {
   calendarMemoModal.appendChild(calendarMemo);
   calendarMemoModal.appendChild(calendarMemoBtn);
 
-  calendarMemoBtn.addEventListener("click", () =>
-    saveMemo(y, m, d, calendarMemo, calendarMemoModal)
-  );
+  calendarMemoBtn.addEventListener("click", () => saveMemo(y, m, d, calendarMemo, calendarMemoModal));
 };
 
 const saveMemo = (y, m, d, memo, modal) => {
-  const checkMemo = calendarMemoArr.filter(
-    (el) => el.date === `${y}-${m}-${d}`
-  );
+  const checkMemo = calendarMemoArr.filter((el) => el.date === `${y}-${m}-${d}`);
 
   if (checkMemo.length !== 0) {
     calendarMemoArr = calendarMemoArr.map((el) => {
@@ -88,17 +82,11 @@ const createPrevMonth = (year, month, memo) => {
 
   if (prevMonthEndDayOfWeek === 6) return;
 
-  for (
-    let i = prevMonthEndDate - prevMonthEndDayOfWeek;
-    i <= prevMonthEndDate;
-    i++
-  ) {
+  for (let i = prevMonthEndDate - prevMonthEndDayOfWeek; i <= prevMonthEndDate; i++) {
     const day = document.createElement("div");
     day.classList.add("day");
 
-    if (
-      memo.filter((el) => el.date === `${year}-${month - 1}-${i}`).length > 0
-    ) {
+    if (memo.filter((el) => el.date === `${year}-${month - 1}-${i}`).length > 0) {
       day.innerHTML = `${i} <span>📝</span>`;
     } else {
       day.innerText = i;
@@ -152,10 +140,7 @@ const createNextMonth = (year, month, memo) => {
       nextMonth = month + 1;
     }
 
-    if (
-      memo.filter((el) => el.date === `${nextYear}-${nextMonth}-${setDay}`)
-        .length > 0
-    ) {
+    if (memo.filter((el) => el.date === `${nextYear}-${nextMonth}-${setDay}`).length > 0) {
       day.innerHTML = `${setDay} <span>📝</span>`;
     } else {
       day.innerText = setDay;
@@ -164,9 +149,7 @@ const createNextMonth = (year, month, memo) => {
     const targetDay = setDay;
     dayList.appendChild(day);
 
-    day.addEventListener("click", () =>
-      handleMemoModal(nextYear, nextMonth, targetDay)
-    );
+    day.addEventListener("click", () => handleMemoModal(nextYear, nextMonth, targetDay));
 
     setDay = setDay + 1;
   }
@@ -187,6 +170,8 @@ const changeMonthBox = document.querySelector(".changeMonthBox");
 const prevMonthBtn = document.querySelector(".prevMonthBtn");
 const currentYearMonth = document.querySelector(".currentYearMonth");
 const nextMonthBtn = document.querySelector(".nextMonthBtn");
+
+currentYearMonth.innerText = `${currentYear}년 ${currentMonth}월`;
 
 const handleMonth = (direction) => {
   if (direction === "prev") {
