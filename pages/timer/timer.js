@@ -14,10 +14,14 @@ const startTimer = () => {
     const currentMinute = Number(timerMinute.value);
     const currentHour = Number(timerHour.value);
 
-    const totalSecond =
-      currentHour * 3600 + currentMinute * 60 + currentSecond - 1;
+    let totalSecond = currentHour * 3600 + currentMinute * 60 + currentSecond;
 
-    if (totalSecond === 0) clearInterval(timer);
+    if (totalSecond === 0) {
+      clearInterval(timer);
+      return;
+    }
+
+    totalSecond--;
 
     const hour = Math.floor(totalSecond / 3600);
     const minute = Math.floor((totalSecond - hour * 3600) / 60);
