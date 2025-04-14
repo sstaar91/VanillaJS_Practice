@@ -3,16 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <title>VanillaJS Project</title>
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./icons/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dongle&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="./style/reset.css" />
@@ -20,30 +15,13 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <nav class="navBox">
-      <a class="logoBox" href="/">
-        <img class="homeHtmlIcon" src="./icons/main_icon.png" alt="icon" />
-        VanillaJS Project
-      </a>
-    </nav>
-    <main class="home">
-      <section class="introduceBox">
-        <img src="icons/me.png" alt="me" />
-        <div class="introduce">
-          <label class="category">STACK</label>
-          <div>
-            <span class="type html">HTML</span>
-            <span class="type css">CSS</span>
-            <span class="type js">Javascript</span>
-          </div>
-          <label class="category">CODE</label>
-          <a href="https://github.com/sstaar91/VanillaJS_Practice"
-            >👉 Github 이동</a
-          >
-        </div>
-      </section>
-      <section class="homeListContainer"></section>
-    </main>
+    <header class="mainHeader">
+      <h1 class="logo">VanillaJS Project</h1>
+      <div class="avatarBox">
+        <img src="icons/me.png" alt="me" width="100%" />
+      </div>
+    </header>
+    <main class="home"></main>
     <script type="module" src="./index.js"></script>
   </body>
 </html>

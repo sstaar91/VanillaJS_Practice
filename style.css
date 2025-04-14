@@ -1,126 +1,79 @@
-@import "./style/nav.css";
-
-.home {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  margin: 0 auto;
-  height: 90vh;
-  padding-top: 100px;
-  max-width: 1600px;
-}
-
-.introduceBox {
+.mainHeader {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  gap: 60px;
-}
-
-.introduceBox > img {
-  width: 300px;
-  border-radius: 100%;
-}
-
-.introduce {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center;
-  gap: 20px;
-  max-width: 400px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 20px;
-  font-weight: 700;
-  line-height: 1.5;
-  text-align: center;
-}
-
-.category {
-  padding: 5px 8px;
-  border-radius: 8px;
+  justify-content: space-between;
+  padding: 24px;
   background-color: black;
+  font-size: 24px;
   font-weight: 700;
   color: white;
 }
 
-.type {
-  padding: 5px;
-  border-radius: 8px;
-}
-
-.html {
-  color: rgba(233, 98, 40, 0.7);
-}
-
-.css {
-  color: rgba(40, 98, 233, 0.7);
-}
-
-.js {
-  color: rgba(255, 216, 58, 0.7);
-}
-
-.homeListContainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
-  padding: 40px;
+.avatarBox {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
   background-color: white;
-  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.cardWrap {
+.home {
   display: flex;
   flex-direction: column;
-  gap: 15px;
-  padding: 15px;
-  height: 250px;
-  border: 1px solid rgba(1, 1, 1, 0.1);
-  border-radius: 8px;
-  transition: 0.2s ease-in-out all;
-}
-
-.cardWrap:hover {
-  border: none;
-  box-shadow: 4px 4px 2px rgba(1, 1, 1, 0.3);
-  transition: 0.2s ease-in-out all;
-  cursor: pointer;
-}
-
-.cardImgWrap {
-  width: 100%;
-  height: 200px;
-  overflow: hidden;
-  object-position: center;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
-.cardImg {
-  width: 100%;
-}
-
-.infoBox {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center;
-  gap: 10px;
-}
-
-.infoTitle {
+  gap: 36px;
   margin: 0 auto;
-  padding: 5px;
-  width: 30px;
-  height: 30px;
-  border: 2px solid black;
-  border-radius: 100%;
-  text-align: center;
-  line-height: 1.3;
-  font-weight: 500;
+  height: calc(100vh - 84px);
+  padding-top: 50px;
+  max-width: 1280px;
 }
 
-.cardWrap .cardInfo {
+.mainListBox {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 24px;
+}
+
+.mainListImage {
+  width: 100%;
+}
+
+.listWrap {
+  padding: 12px 0;
+}
+
+.titleBox {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.sectionTitle {
+  padding-left: 8px;
+  height: max-content;
+  border-left: 4px solid black;
   font-size: 24px;
-  font-family: "Dongle", Noto sans, sans-serif;
+  font-weight: 700;
+}
+
+.dateText {
+  font-size: 14px;
+  color: #a6a5a5;
+}
+
+.description {
+  margin: 24px 0;
+  line-height: 140%;
+}
+
+.moveBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 24px;
+  padding-bottom: 2px;
+  background-color: white;
+  border: none;
+  float: right;
+  cursor: pointer;
 }
