@@ -1,0 +1,28 @@
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 24px;
+  width: 100%;
+  background-color: black;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.logo:active,
+.logo:visited {
+  color: white;
+}
+
+.avatarBox {
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+  background-color: white;
+  cursor: pointer;
+  overflow: hidden;
+}

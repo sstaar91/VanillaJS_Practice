@@ -13,7 +13,7 @@ export const home_list_data = [
     date: "2021.07",
     desc: "오프라인 개발자 부트캠프인 Wecode에서 프론트엔드 개발자 과정을 통해 학습하고 구현해 낸 결과물입니다.",
     mainImg: "images/home/westagram.jpg",
-    path: "/",
+    path: "pages/westagram/Login/index.html",
   },
   {
     id: 3,
@@ -21,6 +21,6 @@ export const home_list_data = [
     date: "2023.08",
     desc: "랜덤으로 정해진 숫자를 야구 게임 룰에 적용해 맞추는 게임입니다.",
     mainImg: "images/home/baseBall.jpg",
-    path: "/",
+    path: "pages/baseBall/index.html",
   },
 ];
