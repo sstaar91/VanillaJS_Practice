@@ -5,7 +5,14 @@
 Vanilla Javascript로 작업한 결과물들을 저장해 놓은 repo입니다.</br>
 주로 학습과정이나 챌린지를 통해 작성한 결과물들로 구성되어있습니다.
 
-## 사용 스택
+## List
+
+- [[Nomad Coders] 크롬 앱 만들기 (21.06)](https://github.com/sstaar91/VanillaJS_Practice/tree/main/pages/nomadChrome)
+- [[Wecode] westagram (21.07)](https://github.com/sstaar91/VanillaJS_Practice/tree/main/pages/westagram)
+- [[Resat] farming challege (23.07)](https://github.com/sstaar91/VanillaJS_Practice/tree/main/pages/resatChallenge)
+- [[Game] 야구 게임 (23.08)](https://github.com/sstaar91/VanillaJS_Practice/tree/main/pages/baseBall)
+
+## Stack
 
 ![HTML5](https://img.shields.io/badge/html5-E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-1572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
