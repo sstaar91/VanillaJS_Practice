@@ -42,6 +42,10 @@ const makeProjectList = (el) => {
   btnImg.setAttribute("height", "24px");
   moveBtn.appendChild(btnImg);
 
+  moveBtn.addEventListener("click", () => {
+    addDefaultPath(el.path);
+  });
+
   listWrap.classList.add("listWrap");
 
   listWrap.appendChild(mainTitleBox);

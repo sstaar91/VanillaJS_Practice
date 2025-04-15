@@ -4,8 +4,8 @@ export const home_list_data = [
     title: "Nomad Coders",
     date: "2021.06",
     desc: "온라인 코딩 강의 [노마드 코더] - JS 크롬 앱 만들기 강의의 결과물입니다.",
-    mainImg: "images/home/nomad_crome.png",
-    path: "/",
+    mainImg: "images/home/nomad_chrome.png",
+    path: "pages/nomadChrome/index.html",
   },
   {
     id: 2,
