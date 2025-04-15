@@ -4,6 +4,11 @@ const loginForm = document.querySelector(".westaLoginForm");
 const loginBtn = document.querySelector(".westaLoginBtn");
 const inputs = document.getElementsByClassName("westaLoginForm")[0];
 
+const logo = document.getElementsByClassName("logo")[0];
+logo.addEventListener("click", () => {
+  addDefaultPath("/");
+});
+
 const handleInput = function () {
   const idValue = document.getElementById("id").value;
   const pwValue = document.getElementById("pw").value;

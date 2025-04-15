@@ -1,9 +1,8 @@
 import { addDefaultPath } from "../../utils/addDefaultPath.js";
 
-const logoBox = document.getElementsByClassName("logoBox")[0];
-logoBox.addEventListener("click", (e) => {
-  e.preventDefault();
-  addDefaultPath(e.target.pathname);
+const logo = document.getElementsByClassName("logo")[0];
+logo.addEventListener("click", () => {
+  addDefaultPath("/");
 });
 
 const secretNumber = createSecretNumber();
@@ -89,9 +88,7 @@ function getResult(secretNumber, guessNumber) {
 }
 
 function makeList(answerList) {
-  const baseBallAnswerListBox = document.querySelector(
-    ".baseBallAnswerListBox"
-  );
+  const baseBallAnswerListBox = document.querySelector(".baseBallAnswerListBox");
 
   baseBallAnswerListBox.innerHTML = "";
 
