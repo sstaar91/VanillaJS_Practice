@@ -1,5 +1,14 @@
 export function addDefaultPath(url) {
   const path = window.location.pathname;
+  const resultUrl = () => {
+    if (url === "/") {
+      return path.includes("VanillaJS_Practice") ? "" : "/";
+    }
 
-  path.includes("VanillaJS_Practice") ? (location.href = `/VanillaJS_Practice${url}`) : (location.href = url);
+    return url;
+  };
+
+  path.includes("VanillaJS_Practice")
+    ? (location.href = `/VanillaJS_Practice${resultUrl()}`)
+    : (location.href = resultUrl());
 }

@@ -1,3 +1,10 @@
+import { addDefaultPath } from "../../utils/addDefaultPath.js";
+
+const logo = document.getElementsByClassName("logo")[0];
+logo.addEventListener("click", () => {
+  addDefaultPath("/");
+});
+
 const loginForm = document.querySelector(".loginForm");
 const loginInput = document.querySelector(".loginName");
 const userText = document.querySelector(".welcomeText");
@@ -5,11 +12,6 @@ const hideForm = document.querySelector(".writeForm");
 
 const HIDDEN_CLASSNAME = "hidden";
 const NAME_KEY = "name";
-
-const logo = document.getElementsByClassName("logo")[0];
-logo.addEventListener("click", () => {
-  addDefaultPath("/");
-});
 
 const showInput = () => {
   if (localStorage.getItem("name") === null) {
