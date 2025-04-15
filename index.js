@@ -5,7 +5,7 @@ const main = document.getElementsByClassName("home")[0];
 
 const logo = document.getElementsByClassName("logo")[0];
 logo.addEventListener("click", () => {
-  window.location = "/";
+  addDefaultPath("/");
 });
 
 const makeProjectList = (el) => {
