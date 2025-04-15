@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/common.css" />
+    <link rel="stylesheet" href="./slider.css" />
+  </head>
+  <body>
+    <main class="mainContainer">
+      <div class="carouselBox">
+        <button class="carouselBtn left">◀︎</button>
+        <div
+          class="carouselImgList"
+          style="
+            transform: translateX(-500px);
+            transition: all 0.3s ease-in-out;
+          "
+        ></div>
+        <button class="carouselBtn right">▶︎</button>
+      </div>
+    </main>
+    <script src="./slider.js"></script>
+  </body>
+</html>

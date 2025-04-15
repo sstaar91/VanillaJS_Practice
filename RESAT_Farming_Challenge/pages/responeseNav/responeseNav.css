@@ -1,0 +1,81 @@
+.navIcon {
+  display: none;
+}
+
+.navBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 600px;
+  height: 400px;
+}
+
+.navCancelIcon {
+  display: none;
+}
+
+.navBox button {
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background-color: darkcyan;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .mainContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .navIcon {
+    display: inline;
+    width: 40px;
+    padding: 5px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .navIcon:hover {
+    border: 2px solid blue;
+    border-radius: 5px;
+  }
+
+  .navBox {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+    background-color: darkcyan;
+  }
+
+  .navCancelIcon {
+    position: absolute;
+    display: inline;
+    top: 20px;
+    right: 20px;
+    width: 25px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .navBox button {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+}

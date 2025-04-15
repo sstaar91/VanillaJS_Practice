@@ -1,0 +1,500 @@
+/* nav 영역 */
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  width: 1400px;
+}
+
+.navLeftBox {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  margin-right: 30px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+.menuContainer li {
+  color: rgb(171, 177, 177);
+  cursor: pointer;
+}
+
+.infoContainer li:first-child {
+  color: black;
+}
+
+.infoContainer li {
+  color: rgb(23, 161, 255);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.line {
+  border-bottom: 1px solid lightgray;
+}
+
+/* main 영역 */
+
+section {
+  margin: 30px auto;
+  max-width: 930px;
+}
+
+/* photo info 영역 */
+
+.photoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photoContainer div {
+  position: relative;
+  height: 400px;
+  padding: 30px;
+  border-radius: 5px;
+  background-size: cover;
+  font-size: 35px;
+  line-height: 1.5;
+  color: white;
+  cursor: pointer;
+}
+
+.signupPhoto {
+  width: 600px;
+  background-image: url(https://miniintern.com/static/images/main/main_img_1.webp);
+}
+
+.signupPhoto span {
+  font-size: 25px;
+}
+
+.infoPhoto {
+  width: 300px;
+  background-image: url(https://miniintern.com/static/images/main/main_img_r_1.webp);
+}
+
+.photoContainer div p {
+  position: absolute;
+  bottom: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: white;
+}
+
+/* intern list 영역 */
+
+.internListContainer {
+  margin-top: 60px;
+}
+
+.internListContainer h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.describtionBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.describtionBox span {
+  color: rgb(23, 161, 255);
+}
+
+.listBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px 0px rgba(26, 27, 28, 0.12);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.cardInfoBox {
+  padding: 10px;
+}
+
+.cardCategoryWrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.cardCategoryWrap label {
+  padding: 5px 10px 2px;
+  background-color: black;
+  border-radius: 30px;
+  color: white;
+}
+
+.cardCategoryWrap .greyLabel {
+  background-color: grey;
+}
+
+.cardCategoryWrap span {
+  color: grey;
+  margin-top: 2px;
+}
+
+.cardDescription {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* image card 영역 */
+
+.imageCardContainer {
+  height: 250px;
+  margin-top: 50px;
+  background-color: rgb(240, 243, 243);
+}
+
+.imageCardWrap {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 20px;
+  max-width: 930px;
+}
+
+.imageCard {
+  width: 335px;
+  border-radius: 15px;
+}
+
+.imageDescription {
+  padding-top: 30px;
+}
+
+.imageCardLabel {
+  padding: 10px 20px 10px 40px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: rgb(23, 161, 255);
+  color: white;
+}
+
+.imageText {
+  padding: 30px;
+}
+
+.imageText p:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(147, 153, 153);
+}
+
+.imageText p:last-child {
+  margin-top: 10px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* employment 영역 */
+
+.employmentContainer {
+  margin-top: 100px;
+}
+
+.employmentContainer h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.employmentBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.employmentCard {
+  display: flex;
+  gap: 10px;
+  padding: 15px 12px;
+  box-shadow: 0px 4px 8px 0px rgba(26, 27, 28, 0.12);
+}
+
+.employmentCard img {
+  width: 120px;
+}
+
+.employmentInfoWrap span {
+  font-size: 12px;
+  color: grey;
+}
+
+.employmentText {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.employmentInfoWrap label {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  background-color: rgb(241, 249, 255);
+  color: rgb(23, 161, 255);
+  font-size: 12px;
+}
+
+.employmentInfoWrap .greyLabel {
+  background-color: rgb(240, 243, 243);
+  color: rgb(147, 153, 153);
+}
+
+/* banner 영역*/
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0 60px;
+  border-radius: 5px;
+  background-image: url("https://miniintern.com/static/images/main/headhunting_banner_pc.png");
+  background-size: contain;
+}
+
+.banner span {
+  font-size: 25px;
+  color: white;
+}
+
+.banner span strong {
+  font-weight: 700;
+}
+
+.banner button {
+  padding: 12px 15px;
+  border-radius: 23px;
+  font-weight: 700;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+}
+
+/*M class 영역*/
+
+.mClassContainer {
+  margin-top: 60px;
+}
+
+.mClassContainer h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.mClassBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.mClassCard {
+  position: relative;
+  box-shadow: 0px 4px 8px 0px rgba(26, 27, 28, 0.12);
+}
+
+.mClassCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.mClassPrice {
+  position: relative;
+  margin-top: -5px;
+  padding: 5px 15px;
+  background-color: rgb(56, 64, 64);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  z-index: 2;
+}
+
+.mClassInfoWrap {
+  padding: 10px;
+}
+
+.mClassInfoWrap span {
+  font-size: 12px;
+  color: grey;
+}
+
+.mClassInfoWrap div {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mClassInfoWrap .mClassPeople {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(254, 136, 60);
+}
+
+.mClassInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mClassInfo span:first-child {
+  color: rgb(254, 136, 60);
+}
+
+/*해피폴리오 영역*/
+
+.happyContainer {
+  margin-top: 60px;
+}
+
+.happyContainer h2 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.happyBox {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.happyCard {
+  position: relative;
+  box-shadow: 0px 4px 8px 0px rgba(26, 27, 28, 0.12);
+}
+
+.happyCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.happyInfoWrap {
+  padding: 10px;
+}
+
+.happyInfoWrap label {
+  padding: 3px 6px;
+  color: rgb(147, 153, 153);
+  background-color: rgb(240, 243, 243);
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.happyInfoWrap div {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.userWrap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: rgb(147, 153, 153);
+}
+
+.userImage {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.happyPrice {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  margin-top: 80px;
+}
+
+/*footer 영역*/
+
+footer {
+  margin: 30px auto;
+  max-width: 930px;
+}
+
+.footerInfoTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footerInfoBox {
+  font-size: 14px;
+  color: rgb(171, 177, 177);
+  cursor: pointer;
+}
+
+.footerInfoList {
+  margin-top: 10px;
+}
+
+.infoTitle {
+  display: inline-block;
+  width: 70px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.infoDescription {
+  font-size: 12px;
+}
+
+.infoDescription strong {
+  font-weight: 700;
+}
+
+.middle {
+  margin: 30px 0;
+}
+
+.footerInfoBottom {
+  font-size: 14px;
+  color: rgb(171, 177, 177);
+}

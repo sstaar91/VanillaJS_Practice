@@ -1,0 +1,57 @@
+.carouselBox {
+  position: relative;
+  width: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carouselBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.left {
+  left: 2%;
+}
+
+.right {
+  right: 2%;
+}
+
+.carouselImgList {
+  display: flex;
+  width: 200%;
+  height: 300px;
+}
+
+.carouselImg {
+  position: relative;
+  padding: 30px;
+  width: 500px;
+  height: 300px;
+}
+
+.carouselLabel {
+  display: inline-block;
+  padding: 5px 10px;
+  width: 100px;
+  text-align: center;
+  font-weight: 700;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.carouselDescription {
+  margin-top: 20px;
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.5;
+}

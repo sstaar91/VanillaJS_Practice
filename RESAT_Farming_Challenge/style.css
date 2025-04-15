@@ -1,0 +1,19 @@
+.mainNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.mainNavUl {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.mainNavList {
+  border: 1px solid black;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+}
